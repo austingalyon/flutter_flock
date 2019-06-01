@@ -1,16 +1,7 @@
 # flutter_flock
 
-A new Flutter project.
+A new Flutter project to match Learning Devs with Experienced Mentors.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After logging in, you set your experience level on a number of topics with an intuitive, gesture-based interface. Based on the responses submitted you'll be matched with other Developers that are experienced in the areas you want to learn and willing to mentor. 
