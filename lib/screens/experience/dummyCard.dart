@@ -70,7 +70,7 @@ Positioned cardDemoDummy(
                           width: 130.0,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
-                            color: Colors.cyan,
+                            color: Theme.of(context).primaryColor,
                             borderRadius: BorderRadius.circular(60.0),
                           ),
                           child: Text(

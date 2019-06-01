@@ -100,7 +100,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                           },
                           icon: Icon(
                             Icons.arrow_back,
-                            color: Colors.cyan,
+                            color: Theme.of(context).primaryColor,
                             size: 30.0,
                           ),
                         ),
@@ -150,7 +150,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                           children: <Widget>[
                                             Icon(
                                               Icons.trending_up,
-                                              color: Colors.cyan,
+                                              color: Theme.of(context).primaryColor,
                                             ),
                                             Padding(
                                               padding:
@@ -163,7 +163,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                           children: <Widget>[
                                             Icon(
                                               Icons.whatshot,
-                                              color: Colors.cyan,
+                                              color: Theme.of(context).primaryColor,
                                             ),
                                             Padding(
                                               padding:
@@ -280,7 +280,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                 width: 130.0,
                                 alignment: Alignment.center,
                                 decoration: BoxDecoration(
-                                  color: Colors.cyan,
+                                  color: Theme.of(context).primaryColor,
                                   borderRadius: BorderRadius.circular(60.0),
                                 ),
                                 child: Text(
