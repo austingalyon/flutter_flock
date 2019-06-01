@@ -150,7 +150,8 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                           children: <Widget>[
                                             Icon(
                                               Icons.trending_up,
-                                              color: Theme.of(context).primaryColor,
+                                              color: Theme.of(context)
+                                                  .primaryColor,
                                             ),
                                             Padding(
                                               padding:
@@ -163,7 +164,8 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                           children: <Widget>[
                                             Icon(
                                               Icons.whatshot,
-                                              color: Theme.of(context).primaryColor,
+                                              color: Theme.of(context)
+                                                  .primaryColor,
                                             ),
                                             Padding(
                                               padding:
@@ -188,8 +190,8 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia vehicula iaculis. Ut tristique massa justo, at ultrices felis lobortis at. Quisque sed lacus luctus erat malesuada tristique rutrum a velit. Sed vestibulum ex turpis, a ornare nibh laoreet eu. Cras viverra massa sollicitudin laoreet consectetur. Curabitur blandit metus eu orci suscipit, sit amet interdum odio tristique. Mauris tempus luctus nulla, eget accumsan dolor egestas at. Pellentesque eget sem tempor, aliquam leo ac, fermentum sem. Phasellus sit amet tincidunt ipsum. Phasellus at vulputate lacus, et pulvinar dolor."),
                                   Container(
                                     margin: EdgeInsets.only(top: 25.0),
-                                    padding: EdgeInsets.only(
-                                        top: 5.0, bottom: 10.0),
+                                    padding:
+                                        EdgeInsets.only(top: 5.0, bottom: 10.0),
                                     height: 120.0,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
@@ -203,7 +205,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                           CrossAxisAlignment.start,
                                       children: <Widget>[
                                         Text(
-                                          "THE SMART ONES",
+                                          "THE EXPERIENCED ONES",
                                           style: TextStyle(
                                               fontWeight: FontWeight.bold),
                                         ),
@@ -268,7 +270,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                   borderRadius: BorderRadius.circular(60.0),
                                 ),
                                 child: Text(
-                                  "DUMB",
+                                  "LEARNING",
                                   style: TextStyle(color: Colors.white),
                                 ),
                               )),
@@ -284,7 +286,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                   borderRadius: BorderRadius.circular(60.0),
                                 ),
                                 child: Text(
-                                  "SMART",
+                                  "EXPERIENCED",
                                   style: TextStyle(color: Colors.white),
                                 ),
                               ))

@@ -58,7 +58,7 @@ Positioned cardDemoDummy(
                             borderRadius: BorderRadius.circular(60.0),
                           ),
                           child: Text(
-                            "DUMB",
+                            "LEARNING",
                             style: TextStyle(color: Colors.white),
                           ),
                         )),
@@ -74,7 +74,7 @@ Positioned cardDemoDummy(
                             borderRadius: BorderRadius.circular(60.0),
                           ),
                           child: Text(
-                            "SMART",
+                            "EXPERIENCED",
                             style: TextStyle(color: Colors.white),
                           ),
                         ))

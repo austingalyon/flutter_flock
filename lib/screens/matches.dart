@@ -14,7 +14,6 @@ class _MatchesState extends State<Matches> {
   @override
   initState() {
     matches = _LoadData();
-    print(matches.length);
   }
 
   List<MatchModel> _LoadData() {
