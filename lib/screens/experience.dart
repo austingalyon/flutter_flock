@@ -132,7 +132,7 @@ class ExperienceState extends State<Experience> with TickerProviderStateMixin {
     return (Scaffold(
         appBar: AppBar(
           elevation: 0.0,
-          backgroundColor: Color(0xff01A0C7),
+          backgroundColor: Theme.of(context).primaryColor,
           centerTitle: true,
           leading: GestureDetector(
             onTap: () => Navigator.push(
@@ -141,7 +141,7 @@ class ExperienceState extends State<Experience> with TickerProviderStateMixin {
               margin: const EdgeInsets.all(15.0),
               child: Icon(
                 Icons.portrait,
-                color: Colors.cyan,
+                color: Theme.of(context).primaryColorDark,
                 size: 30.0,
               ),
             ),
@@ -154,7 +154,7 @@ class ExperienceState extends State<Experience> with TickerProviderStateMixin {
                   margin: const EdgeInsets.all(15.0),
                   child: Icon(
                     Icons.drafts,
-                    color: Colors.cyan,
+                    color: Theme.of(context).primaryColorDark,
                     size: 30.0,
                   )),
             ),
