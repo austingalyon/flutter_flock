@@ -58,8 +58,8 @@ Positioned cardDemo(
                 //     MaterialPageRoute(
                 //         builder: (context) => DetailPage(type: img)));
                 Navigator.of(context).push(PageRouteBuilder(
-                      pageBuilder: (_, __, ___) => DetailPage(type: img),
-                    ));
+                  pageBuilder: (_, __, ___) => DetailPage(type: img),
+                ));
               },
               child: Card(
                 color: Colors.transparent,
@@ -103,11 +103,10 @@ Positioned cardDemo(
                                     alignment: Alignment.center,
                                     decoration: BoxDecoration(
                                       color: Colors.red,
-                                      borderRadius:
-                                          BorderRadius.circular(60.0),
+                                      borderRadius: BorderRadius.circular(60.0),
                                     ),
                                     child: Text(
-                                      "DUMB",
+                                      "LEARNING",
                                       style: TextStyle(color: Colors.white),
                                     ),
                                   )),
@@ -122,11 +121,10 @@ Positioned cardDemo(
                                     alignment: Alignment.center,
                                     decoration: BoxDecoration(
                                       color: Theme.of(context).primaryColor,
-                                      borderRadius:
-                                          BorderRadius.circular(60.0),
+                                      borderRadius: BorderRadius.circular(60.0),
                                     ),
                                     child: Text(
-                                      "SMART",
+                                      "EXPERIENCED",
                                       style: TextStyle(color: Colors.white),
                                     ),
                                   ))
